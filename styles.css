@@ -21,6 +21,11 @@ body {
   margin-bottom: 1rem;
 }
 
+.task {
+  justify-content: center;
+  cursor: pointer;
+}
+
 .col-header {
   width: 150px;
   box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
@@ -63,10 +68,19 @@ body {
   background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
 }
 
+.new-task {
+  background: linear-gradient(90deg, #43e37e 0%, #056a2c 100%);
+  flex: 1;
+}
+
 .hold {
   border: 5px solid #eee;
 }
 
 .hidden {
   display: none;
+}
+
+.hovered {
+  border-top: 2px solid #8ed7ed;
 }
